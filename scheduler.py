@@ -6,7 +6,7 @@ class Process:
         self.priority = priority
 
 
-# ---------------- FCFS ----------------
+# ------------------ FCFS -----------------
 def fcfs(processes):
     processes = sorted(processes, key=lambda x: x.arrival)
 

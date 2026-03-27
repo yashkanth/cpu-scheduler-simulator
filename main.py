@@ -33,7 +33,7 @@ def main():
 
     elif choice == 3:
         quantum = int(input("Enter Time Quantum: "))
-        # create copy so original burst is not destroyed
+        #creating a copy
         import copy
         schedule = round_robin(copy.deepcopy(processes), quantum)
 

@@ -55,7 +55,7 @@ def sjf(processes):
 def priority_scheduling(processes):
     processes = processes[:]
     time = 0
-    schedule = []
+    schedule = []  
 
     while processes:
         ready = [p for p in processes if p.arrival <= time]
